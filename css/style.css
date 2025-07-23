@@ -11,6 +11,7 @@ body {
   font-family: 'Pretendard', sans-serif;
 }
 
+
 /* ✅ 공통 */
 .section {
   text-align: center;
@@ -52,7 +53,7 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
-  gap: 40px;
+  gap: 250px;
 }
 .profile-left {
   flex: 1;
