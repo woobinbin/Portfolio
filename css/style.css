@@ -280,9 +280,6 @@
             
         }
 
-        .project-image img{
-        background-color: #fff;
-        }
 
         .section.visible .project-image {
             transform: scale(1);
