@@ -114,11 +114,13 @@
             text-align: center;
             position: relative;
             top: -60px;
+            text-align: center;
         }
 
-         .profile-image-section p{
+        .profile-image-section p{
           margin-top: 20px;
-         }
+          margin-right: 90px;
+        }
 
         .profile-image {
             width: 280px;
@@ -140,7 +142,9 @@
         }
 
         
-
+        .profile-info{
+          margin-left: 200px;
+        }
         
 
         .profile-name {
@@ -496,6 +500,10 @@
             
             .profile-image{
               margin: 40px auto;
+            }
+
+            .profile-image-section p{
+              margin-left: 90px;
             }
             
             
