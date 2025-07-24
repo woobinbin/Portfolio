@@ -106,7 +106,7 @@
             margin: 0 auto;
             display: grid;
             grid-template-columns: 1fr 2fr;
-            gap: 80px;
+            gap: 100px;
             align-items: center;
         }
 
@@ -132,7 +132,7 @@
             background: rgba(255, 255, 255, 0.1);
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content:  space-between;
             color: rgba(255, 255, 255, 0.7);
             font-size: 14px;
         }
@@ -267,6 +267,7 @@
             text-align: center;
             position: relative;
             display: flex;
+            gap: 100px;
         }
 
         .project-image {
@@ -531,6 +532,14 @@
             .name {
                 font-size: 2rem;
             }
+
+            #project3{
+              margin-right: 30px;
+            }
+
+            .project-content{
+              gap: 40px;
+            }
             
             .project-image {
                 width: 300px;
@@ -544,6 +553,10 @@
 
             .project-title span{
               font-size: 20px;
+            }
+
+            .project-description{
+              font-size: 1rem;
             }
             
             .scroll-indicator {
