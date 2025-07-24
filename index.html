@@ -8,83 +8,128 @@
     <title>포트폴리오</title>
 </head>
 <body>
-    <div id="fullpage">
-    <!-- ✅ 1. 인트로 -->
-    <div class="section intro">
-      <div class="intro-content">
-        <h1>2025</h1>
-        <p class="portfolio-text">Portfolio</p>
-        <h2>Jeon Woo Bin</h2>
-        <p class="contact">+82 010-8652-3978<br>jwbin@naver.com</p>
-      </div>
-    </div>
-
-    <!-- ✅ 2. 프로필 -->
-    <div class="section profile">
-      <div class="profile-container">
-        <div class="profile-left">
-          <img src="images/myface.jpg" alt="프로필 사진">
-          
-          <p class="profile-desc">
-            
-          </p>
+   <div class="section intro visible" id="intro">
+        <div class="intro-content">
+            <div class="year">2025</div>
+            <div class="portfolio-text">PORTFOLIO</div>
+            <div class="name">전 우 빈</div>
+            <div class="contact-info">
+                +82 010-8652-3978<br>
+                jwbin@naver.com
+            </div>
         </div>
-        <div class="profile-right">
-          <h2>전 우 빈<br><span>Jeon Woo Bin</span></h2>
-          <p class="info">
-            2001.12.06<br>
-            010-8652-3978<br>
-            jwbin@naver.com
-          </p>
-          <h3>SKILL</h3>
-          <div class="skills">
-            <img src="images/html-icon.png" alt="HTML">
-            <img src="images/css-icon.png" alt="CSS">
-            <img src="images/js-icon.png" alt="JavaScript">
-            <img src="images/jquery-icon.png" alt="jQuery">
-          </div>
-          <h3>CERTIFICATE</h3>
-          <p>정보처리기능사</p>
-          <h3>EDUCATION</h3>
-          <p>2020.03 ~ 2023.02 신구대학교 VR게임콘텐츠과 졸업</p>
-          <p>2025.01 ~ 2025.07 상봉 대우능력개발원 수료</p>
+
+   </div>
+
+   <div class="scroll-down">
+            ↓ Scroll Down
         </div>
-      </div>
+
+        <div class="section profile" id="profile">
+        <div class="profile-container">
+            <div class="profile-image-section">
+                <div class="profile-image"><img src="images/myface.jpg" alt=""></div>
+                <div class="info-section">
+                    <p>2001.12.06</p>
+                    <p>010-8652-3978</p>
+                    <p>jwbin@naver.com</p>
+                </div>
+            </div>
+            <div class="profile-info">
+                <div class="profile-name">전 우 빈</div>
+                <div class="profile-name-en">Jeon Woo Bin</div>
+                
+                
+
+                <div class="info-section">
+                    <h3>SKILLS</h3>
+                    <div class="skills">
+                        <div class="skill-icon"><img src="images/html-icon.png" alt=""></div>
+                        <div class="skill-icon"><img src="images/css-icon.png" alt=""></div>
+                        <div class="skill-icon"><img src="images/js-icon.png" alt=""></div>
+                        <div class="skill-icon"><img src="images/jquery-icon.png" alt=""></div>
+                        <div class="skill-icon"><img src="images/tailwindcss-icon.png" alt=""></div>
+                        <div class="skill-icon"><img src="images/React-icon.png" alt=""></div>
+                        <div class="skill-icon"><img src="images/Vite.js-icon.png" alt=""></div>
+                        <div class="skill-icon"><img src="images/figma-icon.png" alt=""></div>
+                    </div>
+                    <div class="ai">
+                    <h3>with 생성형 AI</h3>
+                    <div class="ais">
+                      <div class="skill-icon"><img src="images/chatgpt-icon.png" alt=""></div>
+                    <div class="skill-icon"><img src="images/claude-icon.png" alt=""></div>
+                    <div class="skill-icon"><img src="images/cursor-ai-icon.png" alt=""></div>
+                    </div>
+                    
+                    </div>
+                </div>
+
+
+                <div class="info-section">
+                    <h3>CERTIFICATE</h3>
+                    <p>정보처리기능사</p>
+                </div>
+
+                <div class="info-section">
+                    <h3>EDUCATION</h3>
+                    <p>2020.03 ~ 2023.02 신구대학교 VR게임콘텐츠과 졸업</p>
+                    <p>2025.01 ~ 2025.07 상봉 대우능력개발원 수료</p>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- ✅ 3. 프로젝트 1 -->
-    <div class="section project">
-      <div class="project-content">
-        <img src="images/project-img1.png" alt="프로젝트1">
-        <h2>넥슨 스타일 로그인 시스템</h2>
-        <p>
-          Nexon 홈페이지 스타일의 로그인/회원가입 시스템 구현<br>
-          One-time Login, QR Code Login 기능 포함
-        </p>
-        <a href="https://github.com/yourgithub/project1" target="_blank">GitHub 보기</a>
-      </div>
+    <!-- 프로젝트 1 -->
+    <div class="section project" id="project1">
+        <div class="project-content">
+            <div class="project-image"><img src="images/project-img1.png" alt=""></div>
+            <div class="project-title">넥슨 스타일 로그인 시스템</div>
+            <div class="project-description">
+                넥슨 홈페이지 리 디자인<br>
+                엘소드, 던전앤파이터 홈페이지의 검색기능 추가
+            </div>
+            <a href="https://woobin77.vercel.app/" class="github-link" target="_blank">바로가기  →</a>
+        </div>
     </div>
 
-    <!-- ✅ 4. 프로젝트 2 -->
-    <div class="section project">
-      <div class="project-content">
-        <img src="images/project2.png" alt="프로젝트2">
-        <h2>쇼핑몰 프로젝트</h2>
-        <p>
-          상품 등록, 장바구니, 결제 UI 등 쇼핑몰 기본 기능 구현<br>
-          JSON 기반 상품 관리
-        </p>
-        <a href="https://github.com/yourgithub/project2" target="_blank">GitHub 보기</a>
-      </div>
+    <!-- 프로젝트 2 -->
+    <div class="section project" id="project2">
+        <div class="project-content">
+            <div class="project-image">프로젝트 이미지</div>
+            <div class="project-title">KG GNS<br><span>물류관리시스템</span></div>
+            <div class="project-description">
+                실제 물류관리 시스템 홈페이지들을 참고하여 기획한 물류 관리시스템 홈페이지를 구현함.<br>
+                관리자는 물류관리를 할 수 있는 시스템도 같이 구현함.
+                
+            </div>
+            <a href="https://github.com/yourgithub/project2" class="github-link" target="_blank">바로가기  →</a>
+        </div>
     </div>
 
-    <!-- ✅ 5. 연락처 -->
-    <div class="section contact">
-      <h2>Contact Me</h2>
-      <p>Email: youremail@email.com</p>
-      <p>GitHub: <a href="https://github.com/yourgithub" target="_blank">yourgithub</a></p>
-      
+    <!-- 프로젝트 3 -->
+    <div class="section project" id="project3">
+        <div class="project-content">
+            <div class="project-image">프로젝트 이미지</div>
+            <div class="project-title">PeoPle Hub<br><span>인사관리시스템</span></div>
+            <div class="project-description">
+              실제 인사관리 시스템 홈페이지들을 참고하여 기획한 인사관리 시스템 홈페이지를 구현함.
+                
+            </div>
+            <a href="https://github.com/yourgithub/project2" class="github-link" target="_blank">바로가기  →</a>
+        </div>
     </div>
-  </div>
+
+    
+
+    <!-- 연락처 섹션 -->
+    <div class="section contact" id="contact">
+        <div class="contact-content">
+            <h2>Contact Me</h2>
+            <div class="contact-item">📧 jwbin@naver.com</div>
+            <div class="contact-item">📱 010-8652-3978</div>
+            <div class="contact-item"><img src="images/github-icon.png" alt=""> <a href="https://github.com/woobinbin" target="_blank">GitHub</a></div>
+        </div>
+    </div>
+
 </body>
 </html>
