@@ -327,6 +327,10 @@
             opacity: 0.9;
         }
 
+        #project2{
+          background-color: #dcdcdc;
+        }
+
         .github-link {
             display: inline-block;
             padding: 18px 35px;
