@@ -266,6 +266,7 @@
             max-width: 1000px;
             text-align: center;
             position: relative;
+            display: flex;
         }
 
         .project-image {
@@ -292,6 +293,10 @@
         .project-image:hover {
             transform: scale(1.05) rotateY(5deg);
             border-radius: 20px;
+        }
+
+        .project-text{
+          margin-left: 60px;
         }
 
         .project-title {
