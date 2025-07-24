@@ -277,6 +277,11 @@
             backdrop-filter: blur(10px);
             transform: scale(0.9);
             opacity: 0;
+            
+        }
+
+        .project-image img{
+        background-color: #fff;
         }
 
         .section.visible .project-image {
@@ -505,6 +510,10 @@
             .profile-image-section p{
               margin-left: 90px;
             }
+
+            .profile-info{
+              margin: 0 auto;
+            }
             
             
             .intro-content .year {
@@ -519,6 +528,10 @@
                 width: 300px;
                 height: 200px;
                 
+            }
+
+            .project-title{
+              font-size: 25px;
             }
             
             .scroll-indicator {
