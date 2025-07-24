@@ -533,6 +533,10 @@
             .project-title{
               font-size: 25px;
             }
+
+            .project-title span{
+              font-size: 20px;
+            }
             
             .scroll-indicator {
                 display: none;
