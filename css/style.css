@@ -494,6 +494,11 @@
                 text-align: center;
             }
             
+            .profile-image{
+              margin: 40px auto;
+            }
+            
+            
             .intro-content .year {
                 font-size: 5rem;
             }
@@ -505,6 +510,7 @@
             .project-image {
                 width: 300px;
                 height: 200px;
+                
             }
             
             .scroll-indicator {
@@ -513,6 +519,10 @@
 
             .skills {
                 justify-content: center;
+            }
+
+            .ais{
+              justify-content: center;
             }
 
             .profile, .project {
