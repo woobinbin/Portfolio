@@ -286,9 +286,13 @@
             
         }
         
-        #project1{
+        #project1 .project-text{
             background-color: #0AA0D2;
         }
+
+         #project1 .project-image{
+            background-color: #fff;
+         }
 
         #project2{
             background-color: #889fd1;
@@ -330,9 +334,6 @@
             margin-top: 95px;
         }
 
-        #project1 .project-title{
-            color: black;
-        }
 
 
         .project-title {
