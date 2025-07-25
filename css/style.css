@@ -138,12 +138,12 @@
         }
 
         .profile-image img{
-          width: 100%;
+            width: 100%;
         }
 
         
         .profile-info{
-          margin-left: 200px;
+            margin-left: 200px;
         }
         
 
@@ -281,14 +281,13 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            color: rgba(255, 255, 255, 0.7);
             transform: scale(0.9);
             opacity: 0;
             
         }
         
         #project1{
-            position: relative;
+            background-color: #0AA0D2;
         }
 
         #project2{
@@ -298,6 +297,11 @@
         
         #project3{
             position: relative;
+            background-color: #21316b;
+        }
+
+        #project1 img{
+            background-color: #0AA0D2;
         }
 
         #project2 img{
@@ -326,6 +330,10 @@
             margin-top: 250px;
         }
 
+        #project1 .project-title{
+            color: black;
+        }
+
         .project-title {
             font-size: 2.8rem;
             font-weight: 700;
@@ -333,6 +341,7 @@
             transform: translateY(30px);
             opacity: 0;
             transition: all 0.6s ease 0.3s;
+            color: white;
         }
 
         .project-title>span{
@@ -352,6 +361,7 @@
             transform: translateY(30px);
             opacity: 0;
             transition: all 0.6s ease 0.5s;
+            color: rgba(255, 255, 255, 0.7);
         }
 
         .section.visible .project-description {
