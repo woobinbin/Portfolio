@@ -284,17 +284,21 @@
             opacity: 0;
             
         }
+        
 
+        #project2{
+            background-color: #889fd1;
+        }
 
 
         #project2 img{
-          width: 900px;
-          height: 700px;
+            width: 900px;
+            height: 700px;
         }
 
         #project3 img{
-          width: 900px;
-          height: 700px;
+            width: 900px;
+            height: 700px;
         }
 
 
@@ -351,7 +355,7 @@
         .github-link {
             display: inline-block;
             padding: 18px 35px;
-            background: rgba(255, 255, 255, 0.2);
+            background: #007aff;
             text-decoration: none;
             border-radius: 50px;
             font-weight: 600;
@@ -360,6 +364,7 @@
             border: 2px solid rgba(255, 255, 255, 0.3);
             backdrop-filter: blur(10px);
             transform: translateY(30px);
+            color: white;
             opacity: 0;
         }
 
@@ -374,6 +379,10 @@
             transform: translateY(-3px);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
             
+        }
+
+        .github-link>span{
+            padding-left: 10px;
         }
 
         /* 연락처 섹션 */
