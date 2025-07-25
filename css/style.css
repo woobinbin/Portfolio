@@ -229,7 +229,7 @@
         }
 
         .skill-icon img{
-          width: 100%;
+            width: 100%;
         }
 
         .skill-icon:hover {
@@ -250,7 +250,9 @@
         /* 프로젝트 섹션 */
 
         .projects{
-          text-align: center;
+            margin-top: 150px;
+            margin-bottom: 30px;
+            text-align: center;
         }
         .project {
             min-height: 100vh;
@@ -562,8 +564,10 @@
             .project-image {
                 width: 300px;
                 height: 200px;
-                
+                margin-top: 130px;
             }
+
+            
 
             #project1  .project-title{
                 margin-right: 30px;
@@ -624,6 +628,13 @@
 
             .project-description{
               font-size: 1rem;
+            }
+
+            .github-link{
+                width: 160px;
+                height: 50px;
+                font-size: 1rem;
+                line-height: 10px;
             }
 
              #project1  .github-link{
