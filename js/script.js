@@ -19,11 +19,22 @@
 
         function handleScrollAnimations() {
             const sections = document.querySelectorAll('.section');
-            sections.forEach(section => {
-                if (isElementPartiallyInViewport(section)) {
-                    section.classList.add('visible');
-                }
-            });
+    sections.forEach(section => {
+        if (isElementPartiallyInViewport(section)) {
+            // 이미 visible이 아니면 추가
+            if (!section.classList.contains('visible')) {
+                section.classList.add('visible');
+
+                // github-link가 있으면 바로 보여주기
+                const links = section.querySelectorAll('.github-link');
+                links.forEach(link => {
+                    link.classList.add('shown');
+                    link.style.opacity = "1";
+                    link.style.transform = "translateY(0)";
+                });
+            }
+        }
+    });
         }
 
         // 스크롤 인디케이터 업데이트
@@ -92,4 +103,19 @@
                 }
             });
         });
+
+        function showLinks() {
+        const links = document.querySelectorAll(".github-link");
+        links.forEach(link => {
+            link.classList.add("shown");
+            link.style.opacity = "1";
+            link.style.transform = "translateY(0)";
+        });
+        } 
+
+
+
+// 화면 크기가 바뀔 때마다 강제로 다시 적용
+window.addEventListener("resize", showLinks);
+
 

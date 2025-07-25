@@ -390,9 +390,15 @@
 
         .section.visible .github-link {
             transform: translateY(0);
-            opacity: 1;
-            transition: all 0.6s ease 0.7s;
+            opacity: 1 !important;
+            transition: all 0.6s ease 0.7s !important;
         }
+
+        .github-link.shown {
+        opacity: 1 !important;
+        transform: translateY(0) !important;
+        }
+
 
         .github-link:hover {
             background: #025cbd;
