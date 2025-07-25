@@ -263,7 +263,7 @@
 
         
         .project-content {
-            max-width: 1000px;
+            max-width: 1500px;
             text-align: center;
             position: relative;
             display: flex;
@@ -271,8 +271,8 @@
         }
 
         .project-image {
-            width: 600px;
-            height: 400px;
+            width: 900px;
+            height: 700px;
             border-radius: 20px;
             margin: 0 auto 40px;
             transition: all 0.4s ease;
@@ -288,13 +288,13 @@
 
 
         #project2 img{
-          width: 600px;
-          height: 400px;
+          width: 900px;
+          height: 700px;
         }
 
         #project3 img{
-          width: 600px;
-          height: 400px;
+          width: 900px;
+          height: 700px;
         }
 
 
@@ -309,7 +309,8 @@
         }
 
         .project-text{
-          margin-left: 40px;
+            margin-left: 40px;
+            margin-top: 250px;
         }
 
         .project-title {
