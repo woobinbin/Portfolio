@@ -555,6 +555,23 @@
                 
             }
 
+            #project1  .project-title{
+                margin-right: 30px;
+            }
+
+             #project2  .project-title{
+                margin-right: 30px;
+            }
+
+             #project3  .project-title{
+                margin-right: 30px;
+            }
+
+            #project1 .project-text .project-description{
+              font-size: 0.8rem;
+              padding-right: 40px;
+            }
+
             #project2 img{
                 width: 300px;
                 height: 200px;
@@ -597,6 +614,18 @@
 
             .project-description{
               font-size: 1rem;
+            }
+
+             #project1  .github-link{
+                margin-right: 30px;
+            }
+
+             #project2  .github-link{
+                margin-right: 30px;
+            }
+
+             #project3  .github-link{
+                margin-right: 30px;
             }
             
             .scroll-indicator {
