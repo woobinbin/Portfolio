@@ -15,7 +15,7 @@
         }
 
         img{
-          width: 100%;
+        width: 100%;
         }
 
         /* 공통 섹션 스타일 */
@@ -239,13 +239,13 @@
         }
 
         .ai{
-          padding-top: 20px;
+            padding-top: 20px;
         }
         
         .ais{
-          padding-top: 10px;
-          display: flex;
-          gap: 15px;
+            padding-top: 10px;
+            display: flex;
+            gap: 15px;
         }
         /* 프로젝트 섹션 */
 
@@ -273,7 +273,7 @@
         }
 
         .project-image {
-            width: 900px;
+            width: 1200px;
             height: 700px;
             border-radius: 20px;
             margin: 0 auto 40px;
@@ -283,8 +283,36 @@
             justify-content: center;
             transform: scale(0.9);
             opacity: 0;
+            position: relative;
             
         }
+
+        .img1{
+            position: relative;
+            width: 900px;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        .img1 img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .img2{
+        position: absolute;
+        right: 30px;  /* 오른쪽 아래 겹치게 하고 싶다면 right:100px; 로 변경 */
+        width: 400px;
+        height: auto;
+        bottom: 120px;
+        }
+
+        .img2 img {
+        width: 100%;
+        height: auto;
+        display: block;
+}
         
         #project1 .project-text{
             background-color: #0AA0D2;
@@ -299,15 +327,12 @@
             background-color: #21316b;
         }
 
-        #project2 img{
-            width: 900px;
-            height: 700px;
-        }
+        
 
-        #project3 img{
-            width: 900px;
-            height: 700px;
-        }
+    
+        
+
+        
 
 
         .section.visible .project-image {
@@ -324,7 +349,7 @@
             width: 500px;
             height: 470px;
             margin-right: 90px;
-            margin-top: 115px;
+            margin-top: 165px;
             border-radius: 10px;
         }
 
@@ -574,23 +599,46 @@
                 font-size: 2rem;
             }
 
-            
+            .projects{
+                padding-bottom: 50px;
+                padding-left: 40px;
+            }
 
             .project-content{
                 gap: 10px;
+                flex-wrap: wrap;
+            }
+
+            #project2 .project-content{
+                flex-wrap: wrap;
             }
             
             .project-image {
-                width: 300px;
+                width: 1200px;
                 height: 200px;
                 margin-top: -40px;
                 
             }
 
+            .img1 {
+                width: 700px;
+                
+            }
+
+            
+
+            .img2 {
+            width: 350px;
+            bottom: -40px;
+            left: 550px;
+            }
+
+        
+
             .project-text{
-                width: 200px;
+                width: 400px;
                 height: 250px;
-                margin-top: -20px;
+                margin-top: 50px;
             }
 
             
@@ -624,13 +672,13 @@
 
 
             #project1 .project-text{
-                margin-right: 50px;
-                
+                width: 400px;
+                margin-left: 400px;
+                margin-top: 80px;
             }
 
-             #project1 img{
-                width: 250px;
-                height: 200px;
+            #project1 img{
+                width: 700px;
                 margin-left: 40px;
             }
 
@@ -638,19 +686,13 @@
                 gap: 10px;
             }
 
-            #project2 img{
-                width: 300px;
-                height: 200px;
-            }
+            
 
-            #project2 .project-image{
-                width: 200px;
-                margin-left: 70px;
-            }
+            
 
             #project2 .project-text{
-                margin-top: 10px;
-                margin-right: 50px;
+                margin-top: 50px;
+                margin-left: 400px;
                 height: 300px;
                 padding: 0 10px;
             }
@@ -661,19 +703,9 @@
                 
             }
 
-            #project3 img{
-                width: 300px;
-                height: 200px;
-            }
-
-            #project3 .project-image{
-                width: 210px;
-                margin-left: 70px;
-            }
-
             #project3 .project-text{
-                margin-top: 10px;
-                margin-right: 50px;
+                margin-top: 50px;
+                margin-left: 400px;
                 height: 300px;
                 padding: 0 10px;
             
@@ -681,7 +713,7 @@
 
             #project3 .project-text .project-description{
                 font-size: 0.8rem;
-                text-align: left;
+                
             }
 
             .project-title{
