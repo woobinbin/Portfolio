@@ -302,9 +302,13 @@
             
         }
 
+        #project1 .project-image img{
+            width: 1000px;
+        }
+
         .img1{
             position: relative;
-            width: 900px;
+            width: 1000px;
             height: auto;
             margin: 0 auto;
         }
