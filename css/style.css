@@ -303,28 +303,28 @@
         }
 
         #project1 .project-image img{
-            width: 1000px;
+            width: 1200px;
         }
 
         .img1{
             position: relative;
-            width: 1000px;
+            width: 1100px;
             height: auto;
-            margin: 0 auto;
+            margin-right: 100px;
         }
 
         .img1 img {
-            width: 100%;
+            width: 1200px;
             height: auto;
             display: block;
         }
 
         .img2{
         position: absolute;
-        right: 30px;  /* 오른쪽 아래 겹치게 하고 싶다면 right:100px; 로 변경 */
-        width: 400px;
+        right: -70px;  /* 오른쪽 아래 겹치게 하고 싶다면 right:100px; 로 변경 */
+        width: 500px;
         height: auto;
-        bottom: 120px;
+        bottom: 50px;
         }
 
         .img2 img {
@@ -684,12 +684,18 @@
                 margin-right: 50px;
             }
 
-            
+            .img1 img{
+                width: 700px;
+            }
 
             .img2 {
             width: 350px;
             bottom: -80px;
             left: 350px;
+            }
+
+            .img2 img{
+                width: 350px;
             }
 
         .project-title{
