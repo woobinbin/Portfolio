@@ -596,12 +596,12 @@
             
 
             #project2  .project-title{
-                margin-right: 30px;
+                padding-top: 20px;
                 font-size: 1rem;
             }
 
             #project3  .project-title{
-                margin-right: 30px;
+                padding-top: 20px;
                 font-size: 1rem;
             }
 
@@ -614,12 +614,12 @@
 
             #project2 .project-text .project-description{
                 font-size: 0.8rem;
-                
+                padding-left: 30px;
             }
 
             #project3 .project-text .project-description{
                 font-size: 0.8rem;
-                
+                padding-left: 30px;
             }
 
 
@@ -634,27 +634,30 @@
                 margin-left: 40px;
             }
 
+            #project2 .project-content{
+                gap: 10px;
+            }
+
             #project2 img{
                 width: 300px;
                 height: 200px;
-                margin-left: 20px;
             }
 
             #project2 .project-image{
+                width: 200px;
                 margin-left: 70px;
             }
 
             #project2 .project-text{
                 margin-top: 10px;
                 margin-right: 50px;
-                width: 300px;
                 height: 300px;
                 padding: 0 10px;
             }
 
             #project2 .project-text .project-description{
                 font-size: 0.8rem;
-                margin-right: 40px;
+                
                 
             }
 
@@ -664,13 +667,13 @@
             }
 
             #project3 .project-image{
+                width: 210px;
                 margin-left: 70px;
             }
 
             #project3 .project-text{
                 margin-top: 10px;
-                margin-right: 10px;
-                width: 300px;
+                margin-right: 50px;
                 height: 300px;
                 padding: 0 10px;
             
@@ -678,7 +681,7 @@
 
             #project3 .project-text .project-description{
                 font-size: 0.8rem;
-                margin-right: 40px;
+                text-align: left;
             }
 
             .project-title{
@@ -698,7 +701,7 @@
                 height: 50px;
                 font-size: 0.8rem;
                 line-height: 10px;
-                
+                margin-left: 20px;
             }
 
              #project1  .github-link{
