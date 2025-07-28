@@ -312,28 +312,14 @@
         width: 100%;
         height: auto;
         display: block;
-}
+        } 
         
-        #project1 .project-text{
-            background-color: #0AA0D2;
+        .project-skills{
+            display: flex;
         }
-
-        #project2 .project-text{
-            background-color: #889fd1;
-            padding: 0 50px;
+        .project-skill-icon{
+        width: 40px;
         }
-        #project3 .project-text{
-            padding: 0 50px;
-            background-color: #21316b;
-        }
-
-        
-
-    
-        
-
-        
-
 
         .section.visible .project-image {
             transform: scale(1);
@@ -347,10 +333,11 @@
 
         .project-text{
             width: 500px;
-            height: 470px;
-            margin-right: 90px;
+            
+            
             margin-top: 165px;
             border-radius: 10px;
+            background-color: #fff;
         }
 
 
@@ -362,7 +349,7 @@
             transform: translateY(30px);
             opacity: 0;
             transition: all 0.6s ease 0.3s;
-            color: white;
+            color: #333;
         }
 
         .project-title>span{
@@ -382,7 +369,7 @@
             transform: translateY(30px);
             opacity: 0;
             transition: all 0.6s ease 0.5s;
-            color: rgba(255, 255, 255, 0.7);
+            color: #666;
         }
 
         .section.visible .project-description {
@@ -390,7 +377,16 @@
             opacity: 0.9;
         }
 
-        
+        #project1{
+            background-color: #0AA0D2;
+        }
+
+        #project2{
+            background-color: #889fd1;
+        }
+        #project3{
+            background-color: #21316b;
+        }
 
         .github-link {
             display: inline-block;
@@ -610,6 +606,17 @@
                 margin: 0 auto;
             }
 
+            #project1{
+            background-color: #fff;
+        }
+
+        #project2{
+            background-color: #fff;
+        }
+        #project3{
+            background-color: #fff;
+        }
+
             #project2 .project-content{
                 flex-wrap: wrap;
             }
@@ -637,44 +644,50 @@
         
 
             .project-text{
-                width: 400px;
+                width: 50%;
                 height: 250px;
                 margin-top: 50px;
                 border-radius: 10px;
             }
 
-            
+            #project1 .project-title{
+                color: white;
+            }
 
             #project2  .project-title{
                 padding-top: 20px;
                 font-size: 1rem;
+                color: white;
             }
 
             #project3  .project-title{
                 padding-top: 20px;
                 font-size: 1rem;
+                color: white;
             }
 
             
             
             #project1 .project-text .project-description{
                 font-size: 0.8rem;
-                
+                color: rgba(255, 255, 255, 0.7);
             }
 
             #project2 .project-text .project-description{
                 font-size: 0.8rem;
                 padding-left: 30px;
+                color: rgba(255, 255, 255, 0.7);
             }
 
             #project3 .project-text .project-description{
                 font-size: 0.8rem;
                 padding-left: 30px;
+                color: rgba(255, 255, 255, 0.7);
             }
 
 
             #project1 .project-text{
-                width: 400px;
+                width: 50%;
                 margin-left: 400px;
                 margin-top: 80px;
             }
@@ -730,6 +743,19 @@
             .project-description{
                 font-size: 1rem;
             }
+
+            #project1 .project-text{
+            background-color: #0AA0D2;
+        }
+
+        #project2 .project-text{
+            background-color: #889fd1;
+            padding: 0 50px;
+        }
+        #project3 .project-text{
+            padding: 0 50px;
+            background-color: #21316b;
+        }
 
             .github-link{
                 width: 150px;
