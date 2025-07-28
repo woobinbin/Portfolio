@@ -601,7 +601,7 @@
 
             .projects{
                 padding-bottom: 50px;
-                padding-left: 40px;
+                
             }
 
             .project-content{
@@ -640,6 +640,7 @@
                 width: 400px;
                 height: 250px;
                 margin-top: 50px;
+                border-radius: 10px;
             }
 
             
@@ -680,7 +681,7 @@
 
             #project1 img{
                 width: 700px;
-                margin-left: 40px;
+                
             }
 
             #project2 .project-content{
@@ -696,6 +697,7 @@
                 margin-left: 400px;
                 height: 300px;
                 padding: 0 10px;
+                
             }
 
             #project2 .project-text .project-description{
