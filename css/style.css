@@ -628,6 +628,10 @@
                 color: white;
             }
 
+            .project-skills{
+            padding-left: 0;
+        }
+
             .project-skill-icon{
                 margin-top: -20px;
                 
