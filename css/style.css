@@ -332,9 +332,8 @@
         }
 
         .project-text{
-            width: 500px;
-            
-            
+            width: 50%;
+            height: auto;
             margin-top: 165px;
             border-radius: 10px;
             background-color: #fff;
@@ -687,7 +686,7 @@
 
 
             #project1 .project-text{
-                width: 50%;
+                width: 400px;
                 margin-left: 400px;
                 margin-top: 80px;
             }
@@ -706,6 +705,7 @@
             
 
             #project2 .project-text{
+                width: 400px;
                 margin-top: 50px;
                 margin-left: 400px;
                 height: 300px;
@@ -720,6 +720,7 @@
             }
 
             #project3 .project-text{
+                width: 400px;
                 margin-top: 50px;
                 margin-left: 400px;
                 height: 300px;
