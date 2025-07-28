@@ -118,8 +118,8 @@
         }
 
         .profile-image-section p{
-          margin-top: 20px;
-          margin-right: 90px;
+            margin-top: 20px;
+            margin-right: 90px;
         }
 
         .profile-image {
@@ -265,7 +265,7 @@
 
         
         .project-content {
-            max-width: 1500px;
+            width: 100%;
             text-align: center;
             position: relative;
             display: flex;
@@ -273,7 +273,7 @@
         }
 
         .project-image {
-            width: 1200px;
+            width: 50%;
             height: 700px;
             border-radius: 20px;
             margin: 0 auto 40px;
@@ -388,14 +388,14 @@
             opacity: 0.9;
         }
 
-        #project1{
+        #project1 .project-image{
             background-color: #0AA0D2;
         }
 
-        #project2{
+        #project2 .project-image{
             background-color: #889fd1;
         }
-        #project3{
+        #project3 .project-image{
             background-color: #21316b;
         }
 
@@ -628,14 +628,15 @@
                 
             }
 
-            #project1{
+
+        #project1 .project-image{
             background-color: #fff;
         }
 
-        #project2{
+        #project2 .project-image{
             background-color: #fff;
         }
-        #project3{
+        #project3 .project-image{
             background-color: #fff;
         }
 
@@ -651,12 +652,24 @@
             }
 
             #project1 .project-image{
+                margin-left: -140px;
+            }
+
+            #project1 .project-image img{
                 width: 700px;
+            }
+
+            #project2 .project-image{
+                margin-left: -140px;
+            }
+
+            #project3 .project-image{
+                margin-left: -140px;
             }
 
             .img1 {
                 width: 700px;
-                
+                margin-right: 50px;
             }
 
             
@@ -664,7 +677,7 @@
             .img2 {
             width: 350px;
             bottom: -80px;
-            left: 580px;
+            left: 350px;
             }
 
         
@@ -715,7 +728,6 @@
             #project1 .project-text{
                 width: 400px;
                 margin-top: 50px;
-                margin-left: 150px;
                 height: 300px;
                 padding: 0 10px;
             }
@@ -730,7 +742,6 @@
             #project2 .project-text{
                 width: 400px;
                 margin-top: 50px;
-                margin-left: 400px;
                 height: 300px;
                 padding: 0 10px;
                 
@@ -745,7 +756,6 @@
             #project3 .project-text{
                 width: 400px;
                 margin-top: 50px;
-                margin-left: 400px;
                 height: 300px;
                 padding: 0 10px;
             
