@@ -344,7 +344,8 @@
             gap: 15px;
         }
         .project-skill-icon{
-        width: 40px;
+            margin-top: 10px;
+            width: 40px;
         }
 
         .section.visible .project-image {
@@ -865,6 +866,14 @@
 
             .profile, .project {
                 padding: 60px 30px;
+            }
+
+           
+
+            .project-skill-icon img{
+                width: 24px;
+                height: 24px;
+                margin-top: 10px;
             }
         }
 
