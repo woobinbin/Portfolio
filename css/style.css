@@ -245,12 +245,14 @@
 
         .ai{
             padding-top: 20px;
+            
         }
         
         .ais{
             padding-top: 10px;
             display: flex;
             gap: 15px;
+            justify-content: center;
         }
         /* 프로젝트 섹션 */
 
@@ -339,15 +341,22 @@
         } 
         
         .project-skills{
+            
             display: flex;
-            margin-left: 150px;
-            margin: 0 auto;
+            flex-flow: row wrap;
             gap: 15px;
+            justify-content: center;
+            
         }
         .project-skill-icon{
-            margin-top: 10px;
-            width: 40px;
+            width: 50px;
+            height: auto;
+            display: block;
+            
+            
         }
+
+        
 
         .section.visible .project-image {
             transform: scale(1);
@@ -397,7 +406,7 @@
             transition: all 0.6s ease 0.5s;
             color: #666;
             padding-bottom: 30px;
-            margin-top: 40px;
+            margin-top: 50px;
         }
 
         .section.visible .project-description {
@@ -865,6 +874,7 @@
 
             .ais{
               justify-content: center;
+              margin-left: 0;
             }
 
             .profile, .project {
