@@ -659,12 +659,10 @@
 
             .project-skills{
             padding-left: 0;
+            gap: 5px;
         }
 
-            .project-skill-icon{
-                margin-top: -20px;
-                
-            }
+             
 
 
         #project1 .project-image{
@@ -882,7 +880,7 @@
             .project-skill-icon img{
                 width: 24px;
                 height: 24px;
-                margin-top: 30px;
+                margin-top: 10px;
             }
 
             
