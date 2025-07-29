@@ -368,7 +368,7 @@
         .project-title {
             font-size: 2.8rem;
             font-weight: 700;
-            margin-bottom: 25px;
+            margin-bottom: 15px;
             margin-top: 150px;
             transform: translateY(30px);
             opacity: 0;
@@ -388,12 +388,13 @@
         .project-description {
             font-size: 1.3rem;
             line-height: 1.8;
-            margin-bottom: 40px;
+            margin-bottom: 30px;
             opacity: 0.9;
             transform: translateY(30px);
             opacity: 0;
             transition: all 0.6s ease 0.5s;
             color: #666;
+            padding-bottom: 30px;
         }
 
         .section.visible .project-description {
@@ -426,6 +427,8 @@
             transform: translateY(30px);
             color: white;
             opacity: 0;
+            margin-top: 10px;
+            margin-bottom: 5px;
         }
 
         .section.visible .github-link {
