@@ -341,9 +341,7 @@
         } 
         
         .project-skills{
-            
             display: flex;
-            flex-flow: row wrap;
             gap: 15px;
             justify-content: center;
             
@@ -736,10 +734,11 @@
 
             .project-text{
                 width: 50%;
-                height: 500px;
+                height: 600px;
                 margin-top: 50px;
                 border-radius: 10px;
                 margin-left: 20px;
+                margin-bottom: 50px;
             }
 
             #project1 .project-title{
@@ -781,7 +780,7 @@
             #project1 .project-text{
                 width: 400px;
                 margin-top: 50px;
-                height: 400px;
+                height: 500px;
                 padding: 0 10px;
             }
 
@@ -795,7 +794,7 @@
             #project2 .project-text{
                 width: 400px;
                 margin-top: 50px;
-                height: 400px;
+                height: 500px;
                 padding: 0 10px;
                 
             }
@@ -809,7 +808,7 @@
             #project3 .project-text{
                 width: 400px;
                 margin-top: 50px;
-                height: 400px;
+                height: 500px;
                 padding: 0 10px;
             
             }
@@ -886,7 +885,9 @@
             .project-skill-icon img{
                 width: 24px;
                 height: 24px;
-                margin-top: 10px;
+                margin-top: 30px;
             }
+
+            
         }
 
