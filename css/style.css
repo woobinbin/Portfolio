@@ -144,6 +144,7 @@
         
         .profile-info{
             margin-left: 200px;
+            
         }
         
 
@@ -151,6 +152,8 @@
             font-size: 2.5rem;
             font-weight: 900;
             margin-bottom: 10px;
+            margin-right: 80px;
+            margin-top: 30px;
             
         }
 
@@ -158,6 +161,7 @@
             font-size: 1.3rem;
             opacity: 0.8;
             margin-bottom: 40px;
+            margin-right: 80px;
         }
 
         .info-section {
@@ -165,6 +169,7 @@
             transform: translateX(-30px);
             opacity: 0;
             transition: all 0.6s ease;
+            text-align: center;
         }
 
         .section.visible .info-section {
@@ -613,6 +618,18 @@
             .name {
                 font-size: 2rem;
             }
+
+            .profile-name {
+            
+            
+            margin-left: 80px;
+            
+            
+        }
+
+        .profile-name-en {
+            margin-left: 80px;
+        }
 
             .projects{
                 padding-bottom: 50px;
