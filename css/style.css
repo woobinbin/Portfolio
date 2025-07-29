@@ -340,7 +340,8 @@
         
         .project-skills{
             display: flex;
-            margin-left: 40px;
+            margin-left: 150px;
+            margin: 0 auto;
             gap: 15px;
         }
         .project-skill-icon{
@@ -369,7 +370,7 @@
         .project-title {
             font-size: 2.8rem;
             font-weight: 700;
-            margin-bottom: 15px;
+            margin-bottom: 25px;
             margin-top: 90px;
             transform: translateY(30px);
             opacity: 0;
@@ -389,13 +390,14 @@
         .project-description {
             font-size: 1.3rem;
             line-height: 1.8;
-            margin-bottom: 30px;
+            margin-bottom: 50px;
             opacity: 0.9;
             transform: translateY(30px);
             opacity: 0;
             transition: all 0.6s ease 0.5s;
             color: #666;
             padding-bottom: 30px;
+            margin-top: 40px;
         }
 
         .section.visible .project-description {
@@ -428,7 +430,7 @@
             transform: translateY(30px);
             color: white;
             opacity: 0;
-            margin-top: 10px;
+            margin-top: 50px;
             margin-bottom: 5px;
         }
 
@@ -725,9 +727,10 @@
 
             .project-text{
                 width: 50%;
-                height: 250px;
+                height: 500px;
                 margin-top: 50px;
                 border-radius: 10px;
+                margin-left: 20px;
             }
 
             #project1 .project-title{
@@ -769,7 +772,7 @@
             #project1 .project-text{
                 width: 400px;
                 margin-top: 50px;
-                height: 300px;
+                height: 400px;
                 padding: 0 10px;
             }
 
@@ -783,7 +786,7 @@
             #project2 .project-text{
                 width: 400px;
                 margin-top: 50px;
-                height: 300px;
+                height: 400px;
                 padding: 0 10px;
                 
             }
@@ -797,7 +800,7 @@
             #project3 .project-text{
                 width: 400px;
                 margin-top: 50px;
-                height: 300px;
+                height: 400px;
                 padding: 0 10px;
             
             }
