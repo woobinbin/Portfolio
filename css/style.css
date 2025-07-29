@@ -633,11 +633,7 @@
             }
 
             .profile-name {
-            
-            
             margin-left: 80px;
-            
-            
         }
 
         .profile-name-en {
@@ -730,6 +726,7 @@
 
         .project-title{
             margin-top: 0;
+            margin-left: 10px;
         }
 
             .project-text{
