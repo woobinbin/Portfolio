@@ -867,15 +867,15 @@
             }
 
             .ais{
-              justify-content: center;
-              margin-left: 0;
+                justify-content: center;
+                margin-left: 0;
             }
 
             .profile, .project {
                 padding: 60px 30px;
             }
 
-           
+            
 
             .project-skill-icon img{
                 width: 24px;
